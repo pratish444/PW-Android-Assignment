@@ -1,6 +1,6 @@
 package com.example.quizzy
 
-import org.junit.Test
+import org.junit.jupiter.api.Test
 
 import org.junit.Assert.*
 
