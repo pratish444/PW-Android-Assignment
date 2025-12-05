@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChatHistoryState">
+    <option name="chatSessions" value="{&quot;c969057b-2dc3-42e0-9f90-2804a5f38a36&quot;:{&quot;id&quot;:&quot;c969057b-2dc3-42e0-9f90-2804a5f38a36&quot;,&quot;name&quot;:&quot;Migrating BuildConfig to Gradle Build Files for a deprecation warning&quot;,&quot;timestamp&quot;:1764926088012,&quot;messages&quot;:[{&quot;role&quot;:&quot;user&quot;,&quot;content&quot;:[{&quot;type&quot;:&quot;text&quot;,&quot;text&quot;:&quot;\u003cuser_query\u003e\nThe option setting \u0027android.defaults.buildfeatures.buildconfig\u003dtrue\u0027 is deprecated.\nThe current default is \u0027false\u0027.\nIt will be removed in version 9.0 of the Android Gradle plugin.\nYou can resolve this warning in Android Studio via `Refactor` \u003e `Migrate BuildConfig to Gradle Build Files`\n\n\ncheck this error\n\u003c/user_query\u003e&quot;}]},{&quot;role&quot;:&quot;assistant&quot;,&quot;content&quot;:[]}]}}" />
+  </component>
+</project>

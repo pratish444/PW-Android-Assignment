@@ -1,3 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PW Assignment</string>
+    <string name="app_name">Quizzy</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="quizzy">Quizzy!</string>
+    <string name="sign_in_prompt">Let\'s Get you Signed in</string>
+    <string name="school_id">School ID</string>
+    <string name="student_id">Student ID</string>
+    <string name="sign_in">Sign in</string>
+    <string name="logout">Logout</string>
+    <string name="logout_confirmation">Are you sure you want to logout?</string>
+    <string name="cancel">Cancel</string>
+    <string name="notifications">Notifications</string>
+    <string name="settings">Settings</string>
+    <string name="hello">Hello %1$s!</string>
+    <string name="availability">Availability</string>
+    <string name="quiz_attempts">Quiz Attempts</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="today_summary">Today\'s Summary</string>
+    <string name="weekly_overview">Weekly Overview</string>
+    <string name="quiz_streak">Quiz Streak</string>
+    <string name="performance_by_topic">Performance by Topic</string>
+    <string name="watch_video">Watch: %1$s</string>
+    <string name="retry">Retry</string>
+    <string name="error_loading_data">Error loading data</string>
+    <string name="error_sign_in">Please enter both School ID and Student ID</string>
+    <string name="switch_child">Switch Child</string>
+    <string name="change_profile">Change active child profile</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="sign_out_account">Sign out of your account</string>
 </resources>
