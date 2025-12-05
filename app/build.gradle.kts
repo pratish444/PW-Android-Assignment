@@ -3,7 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("com.google.gms.google-services")
     id("com.google.dagger.hilt.android")
-    id("com.google.devtools.ksp")  // ✅ Replace kotlin-kapt with KSP
+    id("com.google.devtools.ksp")  
     id("kotlin-parcelize")
 }
 
@@ -48,7 +48,7 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.4"  // ✅ Match Kotlin 1.9.20
+        kotlinCompilerExtensionVersion = "1.5.4"
     }
 
     packaging {
@@ -88,7 +88,7 @@ dependencies {
 
     // Hilt - ✅ Use KSP instead of kapt
     implementation("com.google.dagger:hilt-android:2.51.1")
-    ksp("com.google.dagger:hilt-android-compiler:2.51.1")  // ✅ Changed from kapt
+    ksp("com.google.dagger:hilt-android-compiler:2.51.1")
     implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
 
     // Retrofit
@@ -119,4 +119,3 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 }
 
-// ✅ Remove kapt configuration block entirely
