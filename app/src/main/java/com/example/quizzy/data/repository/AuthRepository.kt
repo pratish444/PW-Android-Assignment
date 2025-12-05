@@ -20,13 +20,11 @@ class AuthRepository @Inject constructor(
 
     suspend fun signInWithCustomToken(schoolId: String, studentId: String): Result<FirebaseUser> {
         return try {
-            // For demo purposes, creating a mock email/password auth
-            // In production, you'd validate schoolId/studentId with backend
+
             val email = "${studentId}@${schoolId}.school.com"
-            val password = "Student@123" // In production, get from secure backend
+            val password = "Student@123"
 
             try {
-                // Try to sign in first
                 val result = firebaseAuth.signInWithEmailAndPassword(email, password).await()
                 Result.success(result.user!!)
             } catch (e: Exception) {
