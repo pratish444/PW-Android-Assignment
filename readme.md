@@ -2,7 +2,7 @@
 
 A modern Android quiz application built with **Jetpack Compose** and **MVVM architecture** that demonstrates authentication flow, API integration, and clean architecture principles.
 
-## 📱 Screenshots
+##  Screenshots
 
 <table>
   <tr>
