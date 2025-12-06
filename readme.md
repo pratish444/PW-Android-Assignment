@@ -2,20 +2,33 @@
 
 A modern Android quiz application built with **Jetpack Compose** and **MVVM architecture** that demonstrates authentication flow, API integration, and clean architecture principles.
 
-##  Screenshots
+## Screenshots
 
 <table>
   <tr>
-    <td><img src="screenshots/login_screen.png" width="250" alt="Login Screen"/></td>
-    <td><img src="screenshots/home_screen.png" width="250" alt="Home Screen"/></td>
-    <td><img src="screenshots/settings_screen.png" width="250" alt="Settings Screen"/></td>
+    <td><img src="app/src/login_screen.png" width="220" alt="Login Screen"/></td>
+    <td><img src="app/src/home_screen.jpeg" width="220" alt="Home Screen"/></td>
+    <td><img src="app/src/settings_screen.png" width="220" alt="Settings Screen"/></td>
+    <td><img src="app/src/logout_screen.png" width="220" alt="Logout Screen"/></td>
   </tr>
   <tr>
-    <td align="center"><b>Login Screen</b></td>
-    <td align="center"><b>Home Dashboard</b></td>
-    <td align="center"><b>Settings & Logout</b></td>
+    <td align="center"><b>Login</b></td>
+    <td align="center"><b>Home</b></td>
+    <td align="center"><b>Settings</b></td>
+    <td align="center"><b>Logout</b></td>
   </tr>
 </table>
+
+---
+
+###  Firebase Authentication Setup 
+
+<p align="center">
+  <img src="app/src/firebase.png" width="600" alt="Firebase Console Screenshot"/>
+</p>
+
+<p align="center"><b>Firebase Auth Dashboard</b></p>
+
 
 
 
@@ -214,15 +227,6 @@ Error: google-services.json not found
 ```
 **Solution**: Download `google-services.json` from Firebase Console and place in `app/` directory
 
-#### Build Error: Duplicate Class
-```
-Error: Duplicate class found
-```
-**Solution**: Clean and rebuild
-```bash
-./gradlew clean
-./gradlew build
-```
 
 #### API Network Error
 ```
@@ -234,7 +238,7 @@ Error: Unable to resolve host
 - Check if using emulator with proper network settings
 ## 📝 APK Download
 
-**Latest Release**: [Download APK](https://github.com/yourusername/quizzy/releases)
+**Latest Release**: [Download APK](https://drive.google.com/file/d/1brQKb8RX2KlCP4XLTrofrX8rqiNQ26hI/view?usp=sharing)
 
 
 ### Mock API Endpoint
